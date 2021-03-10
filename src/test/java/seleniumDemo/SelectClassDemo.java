@@ -45,7 +45,7 @@ public class SelectClassDemo
 	}
 	
 	@Test
-	public void SelectClassDemoTestExample() throws InterruptedException
+	public void SelectClassDemoTestExample()
 	{
 		//Performing actions on dropdown where user can select multiple values
 		WebElement multipleDropdownElement = driver.findElement(By.id("multiple-select-example"));
