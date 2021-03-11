@@ -1,13 +1,10 @@
 package seleniumDemo;
 
-import java.util.List;
 import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
 import org.openqa.selenium.firefox.FirefoxDriver;
-import org.openqa.selenium.support.ui.Select;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
@@ -30,7 +27,6 @@ public class RadiobuttonAndCheckboxDemo
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 		driver.manage().deleteAllCookies();
 		System.out.println("Launched Firefox Driver & opened URL -> https://letskodeit.teachable.com/p/practice");
-	
 	}
 
 	@AfterMethod
@@ -39,7 +35,7 @@ public class RadiobuttonAndCheckboxDemo
 		System.out.println("Inside the tearDown() method");
 		Thread.sleep(2000);
 		driver.quit();
-		System.out.println("Closing the Browser");
+		System.out.println("Quit the Browser");
 	}
 	
 	@Test
@@ -72,6 +68,5 @@ public class RadiobuttonAndCheckboxDemo
 		driver.findElement(By.id("hondacheck")).click();
 		driver.findElement(By.id("benzcheck")).click();
 	}
-
 
 }

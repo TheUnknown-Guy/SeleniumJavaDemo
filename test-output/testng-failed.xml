@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="seleniumDemo.SelectClassDemo">
+      <class name="seleniumDemo.SwitchTabsAndWindowsDemo">
         <methods>
-          <include name="SelectClassDemoTestExample"/>
-          <include name="setUp"/>
           <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="SwitchToMessageWindowTestExample"/>
         </methods>
-      </class> <!-- seleniumDemo.SelectClassDemo -->
+      </class> <!-- seleniumDemo.SwitchTabsAndWindowsDemo -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
