@@ -49,7 +49,7 @@
               <ul>
                 <li>
                   <a href="#" panel-name="test-xml-Default_suite" class="navigator-link ">
-                    <span>C:\Users\The Unknown Guy\AppData\Local\Temp\testng-eclipse--1584408007\testng-customsuite.xml</span>
+                    <span>C:\Users\The Unknown Guy\AppData\Local\Temp\testng-eclipse-490416258\testng-customsuite.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -102,7 +102,7 @@
                     <div class="method-list-content passed suite-Default_suite">
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="seleniumDemo.AlertMethodDemo" class="method navigator-link" hash-for-method="AlertMethodTestExample">AlertMethodTestExample</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Default_suite" title="seleniumDemo.HandlingFramesDemo" class="method navigator-link" hash-for-method="SwitchFrameTestExample">SwitchFrameTestExample</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Default_suite -->
@@ -120,14 +120,14 @@
           <div class="suite-Default_suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">seleniumDemo.AlertMethodDemo</span>
+              <span class="class-name">seleniumDemo.HandlingFramesDemo</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="AlertMethodTestExample">
-                  </a> <!-- AlertMethodTestExample -->
-                  <span class="method-name">AlertMethodTestExample</span>
+                  <a name="SwitchFrameTestExample">
+                  </a> <!-- SwitchFrameTestExample -->
+                  <span class="method-name">SwitchFrameTestExample</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -135,7 +135,7 @@
         </div> <!-- panel Default_suite -->
         <div panel-name="test-xml-Default_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\The Unknown Guy\AppData\Local\Temp\testng-eclipse--1584408007\testng-customsuite.xml</span>
+            <span class="header-content">C:\Users\The Unknown Guy\AppData\Local\Temp\testng-eclipse-490416258\testng-customsuite.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -144,7 +144,7 @@
 &lt;suite name=&quot;Default suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
   &lt;test thread-count=&quot;5&quot; name=&quot;Default test&quot; verbose=&quot;2&quot;&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;seleniumDemo.AlertMethodDemo&quot;/&gt;
+      &lt;class name=&quot;seleniumDemo.HandlingFramesDemo&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Default test --&gt;
 &lt;/suite&gt; &lt;!-- Default suite --&gt;
@@ -186,14 +186,14 @@ data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
 data.addRows(1);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'AlertMethodTestExample')
-data.setCell(0, 2, 'seleniumDemo.AlertMethodDemo')
-data.setCell(0, 3, 6149);
+data.setCell(0, 1, 'SwitchFrameTestExample')
+data.setCell(0, 2, 'seleniumDemo.HandlingFramesDemo')
+data.setCell(0, 3, 30325);
 window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 6 seconds</span>
+              <span class="suite-total-time">Total running time: 30 seconds</span>
               <div id="times-div-Default_suite">
               </div> <!-- times-div-Default_suite -->
             </div> <!-- times-div -->
@@ -205,11 +205,33 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="reporter-method-div">
-              <span class="reporter-method-name">AlertMethodTestExample</span>
+              <span class="reporter-method-name">SwitchFrameTestExample</span>
               <div class="reporter-method-output-div">
-                <span class="reporter-method-output">On the Confirm Alert, user has selected -> You selected Ok</span>
-                <span class="reporter-method-output">On the Confirm Alert, user has selected -> You selected Cancel</span>
-                <span class="reporter-method-output">On the Prompt Alert, user has entered -> You entered Testing Prompt Alert</span>
+                <span class="reporter-method-output">----- SWITCHING USING FRAME INDEX -----</span>
+                <span class="reporter-method-output">Text Data displayed on the webpage -> Sample Iframe page There are 2 Iframes in this page. Use browser inspecter or firebug to check out the HTML source. In total you can switch between the parent frame, which is this window, and the two frames below</span>
+                <span class="reporter-method-output">Webdriver focus is shift to the First frame</span>
+                <span class="reporter-method-output">Text Data displayed on the Frame ONE -> This is a sample page</span>
+                <span class="reporter-method-output">Webdriver focus is shift to the default webpage</span>
+                <span class="reporter-method-output">Getting the header displayed on the main webpage -> Frames</span>
+                <span class="reporter-method-output">Text Data displayed on the Frame TWO -> This is a sample page</span>
+                <span class="reporter-method-output">Webdriver focus is shift to the default webpage</span>
+                <span class="reporter-method-output">Getting the header displayed on the main webpage -> Frames</span>
+                <span class="reporter-method-output">----- SWITCHING USING FRAME ID or NAME -----</span>
+                <span class="reporter-method-output">Webdriver focus is shift to the First frame</span>
+                <span class="reporter-method-output">Text Data displayed on the Frame ONE -> This is a sample page</span>
+                <span class="reporter-method-output">Webdriver focus is shift to the default webpage</span>
+                <span class="reporter-method-output">Getting the header displayed on the main webpage -> Frames</span>
+                <span class="reporter-method-output">Text Data displayed on the Frame TWO -> This is a sample page</span>
+                <span class="reporter-method-output">Webdriver focus is shift to the default webpage</span>
+                <span class="reporter-method-output">Getting the header displayed on the main webpage -> Frames</span>
+                <span class="reporter-method-output">----- SWITCHING USING FRAME WEBELEMENT (xpath) -----</span>
+                <span class="reporter-method-output">Webdriver focus is shift to the First frame</span>
+                <span class="reporter-method-output">Text Data displayed on the Frame ONE -> This is a sample page</span>
+                <span class="reporter-method-output">Webdriver focus is shift to the default webpage</span>
+                <span class="reporter-method-output">Getting the header displayed on the main webpage -> Frames</span>
+                <span class="reporter-method-output">Text Data displayed on the Frame TWO -> This is a sample page</span>
+                <span class="reporter-method-output">Webdriver focus is shift to the default webpage</span>
+                <span class="reporter-method-output">Getting the header displayed on the main webpage -> Frames</span>
               </div> <!-- reporter-method-output-div -->
             </div> <!-- reporter-method-div -->
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -227,18 +249,18 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">seleniumDemo.AlertMethodDemo</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">seleniumDemo.HandlingFramesDemo</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">setUp</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <span class="method-name">AlertMethodTestExample</span>
-                <span class="method-start">10999 ms</span>
+                <span class="method-name">SwitchFrameTestExample</span>
+                <span class="method-start">20182 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">17154 ms</span>
+                <span class="method-start">50508 ms</span>
               </div> <!-- configuration-method after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

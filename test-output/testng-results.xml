@@ -5,16 +5,82 @@
       <![CDATA[Inside the setUp() method]]>
     </line>
     <line>
-      <![CDATA[Launched Firefox Driver & Opened URL -> https://demoqa.com/alerts]]>
+      <![CDATA[Launched Firefox Driver & Opened URL -> https://demoqa.com/frames]]>
     </line>
     <line>
-      <![CDATA[On the Confirm Alert, user has selected -> You selected Ok]]>
+      <![CDATA[----- SWITCHING USING FRAME INDEX -----]]>
     </line>
     <line>
-      <![CDATA[On the Confirm Alert, user has selected -> You selected Cancel]]>
+      <![CDATA[Text Data displayed on the webpage -> Sample Iframe page There are 2 Iframes in this page. Use browser inspecter or firebug to check out the HTML source. In total you can switch between the parent frame, which is this window, and the two frames below]]>
     </line>
     <line>
-      <![CDATA[On the Prompt Alert, user has entered -> You entered Testing Prompt Alert]]>
+      <![CDATA[Webdriver focus is shift to the First frame]]>
+    </line>
+    <line>
+      <![CDATA[Text Data displayed on the Frame ONE -> This is a sample page]]>
+    </line>
+    <line>
+      <![CDATA[Webdriver focus is shift to the default webpage]]>
+    </line>
+    <line>
+      <![CDATA[Getting the header displayed on the main webpage -> Frames]]>
+    </line>
+    <line>
+      <![CDATA[Text Data displayed on the Frame TWO -> This is a sample page]]>
+    </line>
+    <line>
+      <![CDATA[Webdriver focus is shift to the default webpage]]>
+    </line>
+    <line>
+      <![CDATA[Getting the header displayed on the main webpage -> Frames]]>
+    </line>
+    <line>
+      <![CDATA[----- SWITCHING USING FRAME ID or NAME -----]]>
+    </line>
+    <line>
+      <![CDATA[Webdriver focus is shift to the First frame]]>
+    </line>
+    <line>
+      <![CDATA[Text Data displayed on the Frame ONE -> This is a sample page]]>
+    </line>
+    <line>
+      <![CDATA[Webdriver focus is shift to the default webpage]]>
+    </line>
+    <line>
+      <![CDATA[Getting the header displayed on the main webpage -> Frames]]>
+    </line>
+    <line>
+      <![CDATA[Text Data displayed on the Frame TWO -> This is a sample page]]>
+    </line>
+    <line>
+      <![CDATA[Webdriver focus is shift to the default webpage]]>
+    </line>
+    <line>
+      <![CDATA[Getting the header displayed on the main webpage -> Frames]]>
+    </line>
+    <line>
+      <![CDATA[----- SWITCHING USING FRAME WEBELEMENT (xpath) -----]]>
+    </line>
+    <line>
+      <![CDATA[Webdriver focus is shift to the First frame]]>
+    </line>
+    <line>
+      <![CDATA[Text Data displayed on the Frame ONE -> This is a sample page]]>
+    </line>
+    <line>
+      <![CDATA[Webdriver focus is shift to the default webpage]]>
+    </line>
+    <line>
+      <![CDATA[Getting the header displayed on the main webpage -> Frames]]>
+    </line>
+    <line>
+      <![CDATA[Text Data displayed on the Frame TWO -> This is a sample page]]>
+    </line>
+    <line>
+      <![CDATA[Webdriver focus is shift to the default webpage]]>
+    </line>
+    <line>
+      <![CDATA[Getting the header displayed on the main webpage -> Frames]]>
     </line>
     <line>
       <![CDATA[Inside the tearDown() method]]>
@@ -23,35 +89,101 @@
       <![CDATA[Quit the Browser]]>
     </line>
   </reporter-output>
-  <suite started-at="2021-03-11T18:41:40Z" name="Default suite" finished-at="2021-03-11T18:42:05Z" duration-ms="24912">
+  <suite started-at="2021-03-12T07:13:21Z" name="Default suite" finished-at="2021-03-12T07:14:15Z" duration-ms="54268">
     <groups>
     </groups>
-    <test started-at="2021-03-11T18:41:40Z" name="Default test" finished-at="2021-03-11T18:42:05Z" duration-ms="24912">
-      <class name="seleniumDemo.AlertMethodDemo">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:seleniumDemo.AlertMethodDemo@17a7f733]" started-at="2021-03-11T18:41:40Z" name="setUp" finished-at="2021-03-11T18:41:51Z" duration-ms="10999" status="PASS">
+    <test started-at="2021-03-12T07:13:21Z" name="Default test" finished-at="2021-03-12T07:14:15Z" duration-ms="54268">
+      <class name="seleniumDemo.HandlingFramesDemo">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:seleniumDemo.HandlingFramesDemo@17a7f733]" started-at="2021-03-12T07:13:21Z" name="setUp" finished-at="2021-03-12T07:13:41Z" duration-ms="20182" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Inside the setUp() method]]>
             </line>
             <line>
-              <![CDATA[Launched Firefox Driver & Opened URL -> https://demoqa.com/alerts]]>
+              <![CDATA[Launched Firefox Driver & Opened URL -> https://demoqa.com/frames]]>
             </line>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="AlertMethodTestExample()[pri:0, instance:seleniumDemo.AlertMethodDemo@17a7f733]" started-at="2021-03-11T18:41:51Z" name="AlertMethodTestExample" finished-at="2021-03-11T18:41:58Z" duration-ms="6149" status="PASS">
+        <test-method signature="SwitchFrameTestExample()[pri:0, instance:seleniumDemo.HandlingFramesDemo@17a7f733]" started-at="2021-03-12T07:13:41Z" name="SwitchFrameTestExample" finished-at="2021-03-12T07:14:11Z" duration-ms="30325" status="PASS">
           <reporter-output>
             <line>
-              <![CDATA[On the Confirm Alert, user has selected -> You selected Ok]]>
+              <![CDATA[----- SWITCHING USING FRAME INDEX -----]]>
             </line>
             <line>
-              <![CDATA[On the Confirm Alert, user has selected -> You selected Cancel]]>
+              <![CDATA[Text Data displayed on the webpage -> Sample Iframe page There are 2 Iframes in this page. Use browser inspecter or firebug to check out the HTML source. In total you can switch between the parent frame, which is this window, and the two frames below]]>
             </line>
             <line>
-              <![CDATA[On the Prompt Alert, user has entered -> You entered Testing Prompt Alert]]>
+              <![CDATA[Webdriver focus is shift to the First frame]]>
+            </line>
+            <line>
+              <![CDATA[Text Data displayed on the Frame ONE -> This is a sample page]]>
+            </line>
+            <line>
+              <![CDATA[Webdriver focus is shift to the default webpage]]>
+            </line>
+            <line>
+              <![CDATA[Getting the header displayed on the main webpage -> Frames]]>
+            </line>
+            <line>
+              <![CDATA[Text Data displayed on the Frame TWO -> This is a sample page]]>
+            </line>
+            <line>
+              <![CDATA[Webdriver focus is shift to the default webpage]]>
+            </line>
+            <line>
+              <![CDATA[Getting the header displayed on the main webpage -> Frames]]>
+            </line>
+            <line>
+              <![CDATA[----- SWITCHING USING FRAME ID or NAME -----]]>
+            </line>
+            <line>
+              <![CDATA[Webdriver focus is shift to the First frame]]>
+            </line>
+            <line>
+              <![CDATA[Text Data displayed on the Frame ONE -> This is a sample page]]>
+            </line>
+            <line>
+              <![CDATA[Webdriver focus is shift to the default webpage]]>
+            </line>
+            <line>
+              <![CDATA[Getting the header displayed on the main webpage -> Frames]]>
+            </line>
+            <line>
+              <![CDATA[Text Data displayed on the Frame TWO -> This is a sample page]]>
+            </line>
+            <line>
+              <![CDATA[Webdriver focus is shift to the default webpage]]>
+            </line>
+            <line>
+              <![CDATA[Getting the header displayed on the main webpage -> Frames]]>
+            </line>
+            <line>
+              <![CDATA[----- SWITCHING USING FRAME WEBELEMENT (xpath) -----]]>
+            </line>
+            <line>
+              <![CDATA[Webdriver focus is shift to the First frame]]>
+            </line>
+            <line>
+              <![CDATA[Text Data displayed on the Frame ONE -> This is a sample page]]>
+            </line>
+            <line>
+              <![CDATA[Webdriver focus is shift to the default webpage]]>
+            </line>
+            <line>
+              <![CDATA[Getting the header displayed on the main webpage -> Frames]]>
+            </line>
+            <line>
+              <![CDATA[Text Data displayed on the Frame TWO -> This is a sample page]]>
+            </line>
+            <line>
+              <![CDATA[Webdriver focus is shift to the default webpage]]>
+            </line>
+            <line>
+              <![CDATA[Getting the header displayed on the main webpage -> Frames]]>
             </line>
           </reporter-output>
-        </test-method> <!-- AlertMethodTestExample -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:seleniumDemo.AlertMethodDemo@17a7f733]" started-at="2021-03-11T18:41:58Z" name="tearDown" finished-at="2021-03-11T18:42:05Z" duration-ms="7730" status="PASS">
+        </test-method> <!-- SwitchFrameTestExample -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:seleniumDemo.HandlingFramesDemo@17a7f733]" started-at="2021-03-12T07:14:11Z" name="tearDown" finished-at="2021-03-12T07:14:15Z" duration-ms="3745" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Inside the tearDown() method]]>
@@ -61,7 +193,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- seleniumDemo.AlertMethodDemo -->
+      </class> <!-- seleniumDemo.HandlingFramesDemo -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
