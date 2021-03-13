@@ -89,7 +89,7 @@ public class HandlingFramesDemo
 		Reporter.log("Getting the header displayed on the main webpage -> " + header3, true);
 		//USING FRAME WEBELEMENT
 		Reporter.log("----- SWITCHING USING FRAME WEBELEMENT (xpath) -----", true);
-		////Switching to the frame - using "frame(WebElement element)" method where element is the xpath of Frame
+		//Switching to the frame - using "frame(WebElement element)" method where element is the xpath of Frame
 		Reporter.log("Webdriver focus is shift to the First frame", true);
 		((JavascriptExecutor)driver).executeScript("arguments[0].scrollIntoView(true);", driver.findElement(By.xpath("(//div[@id='framesWrapper']//div)[1]")));
 		driver.switchTo().frame(driver.findElement(By.xpath("//div[@id='frame1Wrapper']//iframe")));
@@ -113,5 +113,6 @@ public class HandlingFramesDemo
 		Reporter.log("Webdriver focus is shift to the default webpage", true);
 		String header5 = driver.findElement(By.className("main-header")).getText();
 		Reporter.log("Getting the header displayed on the main webpage -> " + header5, true);
+
 	}
 }

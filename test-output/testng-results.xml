@@ -5,82 +5,16 @@
       <![CDATA[Inside the setUp() method]]>
     </line>
     <line>
-      <![CDATA[Launched Firefox Driver & Opened URL -> https://demoqa.com/frames]]>
+      <![CDATA[Launched Firefox Driver & Opened URL -> https://www.demoqa.com/date-picker]]>
     </line>
     <line>
-      <![CDATA[----- SWITCHING USING FRAME INDEX -----]]>
+      <![CDATA[Date value after entering -> 11/30/2023]]>
     </line>
     <line>
-      <![CDATA[Text Data displayed on the webpage -> Sample Iframe page There are 2 Iframes in this page. Use browser inspecter or firebug to check out the HTML source. In total you can switch between the parent frame, which is this window, and the two frames below]]>
+      <![CDATA[Date value after entering -> 05/13/2021]]>
     </line>
     <line>
-      <![CDATA[Webdriver focus is shift to the First frame]]>
-    </line>
-    <line>
-      <![CDATA[Text Data displayed on the Frame ONE -> This is a sample page]]>
-    </line>
-    <line>
-      <![CDATA[Webdriver focus is shift to the default webpage]]>
-    </line>
-    <line>
-      <![CDATA[Getting the header displayed on the main webpage -> Frames]]>
-    </line>
-    <line>
-      <![CDATA[Text Data displayed on the Frame TWO -> This is a sample page]]>
-    </line>
-    <line>
-      <![CDATA[Webdriver focus is shift to the default webpage]]>
-    </line>
-    <line>
-      <![CDATA[Getting the header displayed on the main webpage -> Frames]]>
-    </line>
-    <line>
-      <![CDATA[----- SWITCHING USING FRAME ID or NAME -----]]>
-    </line>
-    <line>
-      <![CDATA[Webdriver focus is shift to the First frame]]>
-    </line>
-    <line>
-      <![CDATA[Text Data displayed on the Frame ONE -> This is a sample page]]>
-    </line>
-    <line>
-      <![CDATA[Webdriver focus is shift to the default webpage]]>
-    </line>
-    <line>
-      <![CDATA[Getting the header displayed on the main webpage -> Frames]]>
-    </line>
-    <line>
-      <![CDATA[Text Data displayed on the Frame TWO -> This is a sample page]]>
-    </line>
-    <line>
-      <![CDATA[Webdriver focus is shift to the default webpage]]>
-    </line>
-    <line>
-      <![CDATA[Getting the header displayed on the main webpage -> Frames]]>
-    </line>
-    <line>
-      <![CDATA[----- SWITCHING USING FRAME WEBELEMENT (xpath) -----]]>
-    </line>
-    <line>
-      <![CDATA[Webdriver focus is shift to the First frame]]>
-    </line>
-    <line>
-      <![CDATA[Text Data displayed on the Frame ONE -> This is a sample page]]>
-    </line>
-    <line>
-      <![CDATA[Webdriver focus is shift to the default webpage]]>
-    </line>
-    <line>
-      <![CDATA[Getting the header displayed on the main webpage -> Frames]]>
-    </line>
-    <line>
-      <![CDATA[Text Data displayed on the Frame TWO -> This is a sample page]]>
-    </line>
-    <line>
-      <![CDATA[Webdriver focus is shift to the default webpage]]>
-    </line>
-    <line>
-      <![CDATA[Getting the header displayed on the main webpage -> Frames]]>
+      <![CDATA[Value in the 2nd date input field is -> November 30, 2023 10:30 AM]]>
     </line>
     <line>
       <![CDATA[Inside the tearDown() method]]>
@@ -89,101 +23,35 @@
       <![CDATA[Quit the Browser]]>
     </line>
   </reporter-output>
-  <suite started-at="2021-03-12T07:13:21Z" name="Default suite" finished-at="2021-03-12T07:14:15Z" duration-ms="54268">
+  <suite started-at="2021-03-13T19:36:35Z" name="Default suite" finished-at="2021-03-13T19:37:16Z" duration-ms="40363">
     <groups>
     </groups>
-    <test started-at="2021-03-12T07:13:21Z" name="Default test" finished-at="2021-03-12T07:14:15Z" duration-ms="54268">
-      <class name="seleniumDemo.HandlingFramesDemo">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:seleniumDemo.HandlingFramesDemo@17a7f733]" started-at="2021-03-12T07:13:21Z" name="setUp" finished-at="2021-03-12T07:13:41Z" duration-ms="20182" status="PASS">
+    <test started-at="2021-03-13T19:36:35Z" name="Default test" finished-at="2021-03-13T19:37:16Z" duration-ms="40363">
+      <class name="seleniumDemo.DatePickerDemo">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:seleniumDemo.DatePickerDemo@17a7f733]" started-at="2021-03-13T19:36:35Z" name="setUp" finished-at="2021-03-13T19:36:46Z" duration-ms="10998" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Inside the setUp() method]]>
             </line>
             <line>
-              <![CDATA[Launched Firefox Driver & Opened URL -> https://demoqa.com/frames]]>
+              <![CDATA[Launched Firefox Driver & Opened URL -> https://www.demoqa.com/date-picker]]>
             </line>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="SwitchFrameTestExample()[pri:0, instance:seleniumDemo.HandlingFramesDemo@17a7f733]" started-at="2021-03-12T07:13:41Z" name="SwitchFrameTestExample" finished-at="2021-03-12T07:14:11Z" duration-ms="30325" status="PASS">
+        <test-method signature="DatePickerTestExample()[pri:0, instance:seleniumDemo.DatePickerDemo@17a7f733]" started-at="2021-03-13T19:36:46Z" name="DatePickerTestExample" finished-at="2021-03-13T19:37:11Z" duration-ms="25047" status="PASS">
           <reporter-output>
             <line>
-              <![CDATA[----- SWITCHING USING FRAME INDEX -----]]>
+              <![CDATA[Date value after entering -> 11/30/2023]]>
             </line>
             <line>
-              <![CDATA[Text Data displayed on the webpage -> Sample Iframe page There are 2 Iframes in this page. Use browser inspecter or firebug to check out the HTML source. In total you can switch between the parent frame, which is this window, and the two frames below]]>
+              <![CDATA[Date value after entering -> 05/13/2021]]>
             </line>
             <line>
-              <![CDATA[Webdriver focus is shift to the First frame]]>
-            </line>
-            <line>
-              <![CDATA[Text Data displayed on the Frame ONE -> This is a sample page]]>
-            </line>
-            <line>
-              <![CDATA[Webdriver focus is shift to the default webpage]]>
-            </line>
-            <line>
-              <![CDATA[Getting the header displayed on the main webpage -> Frames]]>
-            </line>
-            <line>
-              <![CDATA[Text Data displayed on the Frame TWO -> This is a sample page]]>
-            </line>
-            <line>
-              <![CDATA[Webdriver focus is shift to the default webpage]]>
-            </line>
-            <line>
-              <![CDATA[Getting the header displayed on the main webpage -> Frames]]>
-            </line>
-            <line>
-              <![CDATA[----- SWITCHING USING FRAME ID or NAME -----]]>
-            </line>
-            <line>
-              <![CDATA[Webdriver focus is shift to the First frame]]>
-            </line>
-            <line>
-              <![CDATA[Text Data displayed on the Frame ONE -> This is a sample page]]>
-            </line>
-            <line>
-              <![CDATA[Webdriver focus is shift to the default webpage]]>
-            </line>
-            <line>
-              <![CDATA[Getting the header displayed on the main webpage -> Frames]]>
-            </line>
-            <line>
-              <![CDATA[Text Data displayed on the Frame TWO -> This is a sample page]]>
-            </line>
-            <line>
-              <![CDATA[Webdriver focus is shift to the default webpage]]>
-            </line>
-            <line>
-              <![CDATA[Getting the header displayed on the main webpage -> Frames]]>
-            </line>
-            <line>
-              <![CDATA[----- SWITCHING USING FRAME WEBELEMENT (xpath) -----]]>
-            </line>
-            <line>
-              <![CDATA[Webdriver focus is shift to the First frame]]>
-            </line>
-            <line>
-              <![CDATA[Text Data displayed on the Frame ONE -> This is a sample page]]>
-            </line>
-            <line>
-              <![CDATA[Webdriver focus is shift to the default webpage]]>
-            </line>
-            <line>
-              <![CDATA[Getting the header displayed on the main webpage -> Frames]]>
-            </line>
-            <line>
-              <![CDATA[Text Data displayed on the Frame TWO -> This is a sample page]]>
-            </line>
-            <line>
-              <![CDATA[Webdriver focus is shift to the default webpage]]>
-            </line>
-            <line>
-              <![CDATA[Getting the header displayed on the main webpage -> Frames]]>
+              <![CDATA[Value in the 2nd date input field is -> November 30, 2023 10:30 AM]]>
             </line>
           </reporter-output>
-        </test-method> <!-- SwitchFrameTestExample -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:seleniumDemo.HandlingFramesDemo@17a7f733]" started-at="2021-03-12T07:14:11Z" name="tearDown" finished-at="2021-03-12T07:14:15Z" duration-ms="3745" status="PASS">
+        </test-method> <!-- DatePickerTestExample -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:seleniumDemo.DatePickerDemo@17a7f733]" started-at="2021-03-13T19:37:11Z" name="tearDown" finished-at="2021-03-13T19:37:16Z" duration-ms="4292" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Inside the tearDown() method]]>
@@ -193,7 +61,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- seleniumDemo.HandlingFramesDemo -->
+      </class> <!-- seleniumDemo.DatePickerDemo -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
