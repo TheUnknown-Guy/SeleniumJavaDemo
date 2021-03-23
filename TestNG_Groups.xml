@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<test name="Test 1">
+		<groups>
+				<define name="all">
+					<include name= "Smoke" />
+					<include name= "Sanity" />
+					<include name= "Regression"/>
+				</define>
+				<run>
+					<include name ="all"/>
+				</run>
+		</groups>
+		<classes>
+			<class name="seleniumDemo.TestNG_Groups" />
+		</classes>
+	</test> <!-- Test -->
+	<test name="Test 2">
+		<groups>
+				<run>
+					<include name = "Smoke"/>
+					<exclude name= "Sanity"/>
+				</run>
+		</groups>
+		<classes>
+			<class name="seleniumDemo.TestNG_Priority" />
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->

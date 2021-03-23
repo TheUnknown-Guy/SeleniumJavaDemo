@@ -11,7 +11,7 @@ import org.testng.annotations.Test;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 
-public class TestNG_Priority 
+public class TestNG_Groups 
 {
 	private WebDriver driver;	
 	private String baseURL = "https://www.demoqa.com/tool-tips";
@@ -37,29 +37,41 @@ public class TestNG_Priority
 		Reporter.log("Quit the Browser", true);
 	}
 	
-	@Test(priority = -1, groups = {"Sanity"})
+	@Test(groups = {"Sanity"})
 	public void TestMethod1()
 	{
 		String title = driver.getTitle();
 		Reporter.log("Inside Test Method - 1 | Page title is -> " + title );
 	}
-	@Test(priority = 1, groups = {"Sanity", "Smoke"})
+	@Test(groups = {"Sanity", "Smoke"})
 	public void TestMethod2()
 	{
 		String title = driver.getTitle();
 		Reporter.log("Inside Test Method - 2 | Page title is -> " + title );
 	}
-	@Test(priority = 2, groups = {"Sanity, Smoke"})
+	@Test(groups = {"Sanity", "Smoke"})
 	public void TestMethod3()
 	{
 		String title = driver.getTitle();
 		Reporter.log("Inside Test Method - 3 | Page title is -> " + title );
 	}
-	@Test(groups = {"Smoke"})
+	@Test(groups = {"Regression"})
 	public void TestMethod4()
 	{
 		String title = driver.getTitle();
 		Reporter.log("Inside Test Method - 4 | Page title is -> " + title );
+	}
+	@Test(groups = {"Regression"})
+	public void TestMethod5()
+	{
+		String title = driver.getTitle();
+		Reporter.log("Inside Test Method - 5 | Page title is -> " + title );
+	}
+	@Test(groups = {"Regression", "Smoke", "Sanity"})
+	public void TestMethod6()
+	{
+		String title = driver.getTitle();
+		Reporter.log("Inside Test Method - 6 | Page title is -> " + title );
 	}
 
 }

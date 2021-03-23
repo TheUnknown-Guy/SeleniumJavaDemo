@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+<testng-results ignored="3" total="10" passed="7" failed="0" skipped="0">
   <reporter-output>
     <line>
       <![CDATA[Inside the setUp() method]]>
@@ -9,21 +9,6 @@
     </line>
     <line>
       <![CDATA[Inside Test Method - 1 | Page title is -> ToolsQA]]>
-    </line>
-    <line>
-      <![CDATA[Inside the tearDown() method]]>
-    </line>
-    <line>
-      <![CDATA[Quit the Browser]]>
-    </line>
-    <line>
-      <![CDATA[Inside the setUp() method]]>
-    </line>
-    <line>
-      <![CDATA[Launched Firefox Driver & Opened URL -> https://www.demoqa.com/tool-tips]]>
-    </line>
-    <line>
-      <![CDATA[Inside Test Method - 4 | Page title is -> ToolsQA]]>
     </line>
     <line>
       <![CDATA[Inside the tearDown() method]]>
@@ -61,13 +46,90 @@
     <line>
       <![CDATA[Quit the Browser]]>
     </line>
+    <line>
+      <![CDATA[Inside the setUp() method]]>
+    </line>
+    <line>
+      <![CDATA[Launched Firefox Driver & Opened URL -> https://www.demoqa.com/tool-tips]]>
+    </line>
+    <line>
+      <![CDATA[Inside Test Method - 4 | Page title is -> ToolsQA]]>
+    </line>
+    <line>
+      <![CDATA[Inside the tearDown() method]]>
+    </line>
+    <line>
+      <![CDATA[Quit the Browser]]>
+    </line>
+    <line>
+      <![CDATA[Inside the setUp() method]]>
+    </line>
+    <line>
+      <![CDATA[Launched Firefox Driver & Opened URL -> https://www.demoqa.com/tool-tips]]>
+    </line>
+    <line>
+      <![CDATA[Inside Test Method - 5 | Page title is -> ToolsQA]]>
+    </line>
+    <line>
+      <![CDATA[Inside the tearDown() method]]>
+    </line>
+    <line>
+      <![CDATA[Quit the Browser]]>
+    </line>
+    <line>
+      <![CDATA[Inside the setUp() method]]>
+    </line>
+    <line>
+      <![CDATA[Launched Firefox Driver & Opened URL -> https://www.demoqa.com/tool-tips]]>
+    </line>
+    <line>
+      <![CDATA[Inside Test Method - 6 | Page title is -> ToolsQA]]>
+    </line>
+    <line>
+      <![CDATA[Inside the tearDown() method]]>
+    </line>
+    <line>
+      <![CDATA[Quit the Browser]]>
+    </line>
+    <line>
+      <![CDATA[Inside the setUp() method]]>
+    </line>
+    <line>
+      <![CDATA[Launched Firefox Driver & Opened URL -> https://www.demoqa.com/tool-tips]]>
+    </line>
+    <line>
+      <![CDATA[Inside Test Method - 4 | Page title is -> ToolsQA]]>
+    </line>
+    <line>
+      <![CDATA[Inside the tearDown() method]]>
+    </line>
+    <line>
+      <![CDATA[Quit the Browser]]>
+    </line>
   </reporter-output>
-  <suite started-at="2021-03-22T06:40:55Z" name="Default suite" finished-at="2021-03-22T06:42:36Z" duration-ms="101218">
+  <suite started-at="2021-03-23T08:16:29Z" name="Suite" finished-at="2021-03-23T08:19:08Z" duration-ms="159803">
     <groups>
+      <group name="Sanity">
+        <method signature="TestNG_Groups.TestMethod1()[pri:0, instance:seleniumDemo.TestNG_Groups@65b3f4a4]" name="TestMethod1" class="seleniumDemo.TestNG_Groups"/>
+        <method signature="TestNG_Groups.TestMethod2()[pri:0, instance:seleniumDemo.TestNG_Groups@65b3f4a4]" name="TestMethod2" class="seleniumDemo.TestNG_Groups"/>
+        <method signature="TestNG_Groups.TestMethod3()[pri:0, instance:seleniumDemo.TestNG_Groups@65b3f4a4]" name="TestMethod3" class="seleniumDemo.TestNG_Groups"/>
+        <method signature="TestNG_Groups.TestMethod6()[pri:0, instance:seleniumDemo.TestNG_Groups@65b3f4a4]" name="TestMethod6" class="seleniumDemo.TestNG_Groups"/>
+      </group> <!-- Sanity -->
+      <group name="Regression">
+        <method signature="TestNG_Groups.TestMethod4()[pri:0, instance:seleniumDemo.TestNG_Groups@65b3f4a4]" name="TestMethod4" class="seleniumDemo.TestNG_Groups"/>
+        <method signature="TestNG_Groups.TestMethod5()[pri:0, instance:seleniumDemo.TestNG_Groups@65b3f4a4]" name="TestMethod5" class="seleniumDemo.TestNG_Groups"/>
+        <method signature="TestNG_Groups.TestMethod6()[pri:0, instance:seleniumDemo.TestNG_Groups@65b3f4a4]" name="TestMethod6" class="seleniumDemo.TestNG_Groups"/>
+      </group> <!-- Regression -->
+      <group name="Smoke">
+        <method signature="TestNG_Groups.TestMethod2()[pri:0, instance:seleniumDemo.TestNG_Groups@65b3f4a4]" name="TestMethod2" class="seleniumDemo.TestNG_Groups"/>
+        <method signature="TestNG_Groups.TestMethod3()[pri:0, instance:seleniumDemo.TestNG_Groups@65b3f4a4]" name="TestMethod3" class="seleniumDemo.TestNG_Groups"/>
+        <method signature="TestNG_Groups.TestMethod6()[pri:0, instance:seleniumDemo.TestNG_Groups@65b3f4a4]" name="TestMethod6" class="seleniumDemo.TestNG_Groups"/>
+        <method signature="TestNG_Priority.TestMethod4()[pri:0, instance:seleniumDemo.TestNG_Priority@2525ff7e]" name="TestMethod4" class="seleniumDemo.TestNG_Priority"/>
+      </group> <!-- Smoke -->
     </groups>
-    <test started-at="2021-03-22T06:40:55Z" name="Default test" finished-at="2021-03-22T06:42:36Z" duration-ms="101218">
-      <class name="seleniumDemo.TestNG_Priority">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:seleniumDemo.TestNG_Priority@11fc564b]" started-at="2021-03-22T06:40:55Z" name="setUp" finished-at="2021-03-22T06:41:14Z" duration-ms="19607" status="PASS">
+    <test started-at="2021-03-23T08:16:29Z" name="Test 1" finished-at="2021-03-23T08:18:40Z" duration-ms="131673">
+      <class name="seleniumDemo.TestNG_Groups">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:seleniumDemo.TestNG_Groups@65b3f4a4]" started-at="2021-03-23T08:16:29Z" name="setUp" finished-at="2021-03-23T08:16:46Z" duration-ms="17155" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Inside the setUp() method]]>
@@ -77,14 +139,14 @@
             </line>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="TestMethod1()[pri:-1, instance:seleniumDemo.TestNG_Priority@11fc564b]" started-at="2021-03-22T06:41:14Z" name="TestMethod1" finished-at="2021-03-22T06:41:14Z" duration-ms="11" status="PASS">
+        <test-method signature="TestMethod1()[pri:0, instance:seleniumDemo.TestNG_Groups@65b3f4a4]" started-at="2021-03-23T08:16:46Z" name="TestMethod1" finished-at="2021-03-23T08:16:46Z" duration-ms="22" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Inside Test Method - 1 | Page title is -> ToolsQA]]>
             </line>
           </reporter-output>
         </test-method> <!-- TestMethod1 -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:seleniumDemo.TestNG_Priority@11fc564b]" started-at="2021-03-22T06:41:14Z" name="tearDown" finished-at="2021-03-22T06:41:23Z" duration-ms="8352" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:seleniumDemo.TestNG_Groups@65b3f4a4]" started-at="2021-03-23T08:16:46Z" name="tearDown" finished-at="2021-03-23T08:16:52Z" duration-ms="5710" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Inside the tearDown() method]]>
@@ -94,7 +156,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:seleniumDemo.TestNG_Priority@11fc564b]" started-at="2021-03-22T06:41:23Z" name="setUp" finished-at="2021-03-22T06:41:36Z" duration-ms="13405" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:seleniumDemo.TestNG_Groups@65b3f4a4]" started-at="2021-03-23T08:16:52Z" name="setUp" finished-at="2021-03-23T08:17:11Z" duration-ms="19650" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Inside the setUp() method]]>
@@ -104,41 +166,14 @@
             </line>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="TestMethod4()[pri:0, instance:seleniumDemo.TestNG_Priority@11fc564b]" started-at="2021-03-22T06:41:36Z" name="TestMethod4" finished-at="2021-03-22T06:41:36Z" duration-ms="3" status="PASS">
-          <reporter-output>
-            <line>
-              <![CDATA[Inside Test Method - 4 | Page title is -> ToolsQA]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- TestMethod4 -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:seleniumDemo.TestNG_Priority@11fc564b]" started-at="2021-03-22T06:41:36Z" name="tearDown" finished-at="2021-03-22T06:41:48Z" duration-ms="11665" status="PASS">
-          <reporter-output>
-            <line>
-              <![CDATA[Inside the tearDown() method]]>
-            </line>
-            <line>
-              <![CDATA[Quit the Browser]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:seleniumDemo.TestNG_Priority@11fc564b]" started-at="2021-03-22T06:41:48Z" name="setUp" finished-at="2021-03-22T06:42:02Z" duration-ms="14289" status="PASS">
-          <reporter-output>
-            <line>
-              <![CDATA[Inside the setUp() method]]>
-            </line>
-            <line>
-              <![CDATA[Launched Firefox Driver & Opened URL -> https://www.demoqa.com/tool-tips]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="TestMethod2()[pri:1, instance:seleniumDemo.TestNG_Priority@11fc564b]" started-at="2021-03-22T06:42:02Z" name="TestMethod2" finished-at="2021-03-22T06:42:02Z" duration-ms="3" status="PASS">
+        <test-method signature="TestMethod2()[pri:0, instance:seleniumDemo.TestNG_Groups@65b3f4a4]" started-at="2021-03-23T08:17:11Z" name="TestMethod2" finished-at="2021-03-23T08:17:11Z" duration-ms="8" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Inside Test Method - 2 | Page title is -> ToolsQA]]>
             </line>
           </reporter-output>
         </test-method> <!-- TestMethod2 -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:seleniumDemo.TestNG_Priority@11fc564b]" started-at="2021-03-22T06:42:02Z" name="tearDown" finished-at="2021-03-22T06:42:11Z" duration-ms="8975" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:seleniumDemo.TestNG_Groups@65b3f4a4]" started-at="2021-03-23T08:17:11Z" name="tearDown" finished-at="2021-03-23T08:17:18Z" duration-ms="6370" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Inside the tearDown() method]]>
@@ -148,7 +183,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:seleniumDemo.TestNG_Priority@11fc564b]" started-at="2021-03-22T06:42:11Z" name="setUp" finished-at="2021-03-22T06:42:27Z" duration-ms="15689" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:seleniumDemo.TestNG_Groups@65b3f4a4]" started-at="2021-03-23T08:17:18Z" name="setUp" finished-at="2021-03-23T08:17:31Z" duration-ms="13654" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Inside the setUp() method]]>
@@ -158,14 +193,126 @@
             </line>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="TestMethod3()[pri:2, instance:seleniumDemo.TestNG_Priority@11fc564b]" started-at="2021-03-22T06:42:27Z" name="TestMethod3" finished-at="2021-03-22T06:42:27Z" duration-ms="9" status="PASS">
+        <test-method signature="TestMethod3()[pri:0, instance:seleniumDemo.TestNG_Groups@65b3f4a4]" started-at="2021-03-23T08:17:31Z" name="TestMethod3" finished-at="2021-03-23T08:17:31Z" duration-ms="12" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Inside Test Method - 3 | Page title is -> ToolsQA]]>
             </line>
           </reporter-output>
         </test-method> <!-- TestMethod3 -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:seleniumDemo.TestNG_Priority@11fc564b]" started-at="2021-03-22T06:42:27Z" name="tearDown" finished-at="2021-03-22T06:42:36Z" duration-ms="9190" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:seleniumDemo.TestNG_Groups@65b3f4a4]" started-at="2021-03-23T08:17:31Z" name="tearDown" finished-at="2021-03-23T08:17:39Z" duration-ms="7192" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Inside the tearDown() method]]>
+            </line>
+            <line>
+              <![CDATA[Quit the Browser]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:seleniumDemo.TestNG_Groups@65b3f4a4]" started-at="2021-03-23T08:17:39Z" name="setUp" finished-at="2021-03-23T08:17:52Z" duration-ms="13045" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Inside the setUp() method]]>
+            </line>
+            <line>
+              <![CDATA[Launched Firefox Driver & Opened URL -> https://www.demoqa.com/tool-tips]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="TestMethod4()[pri:0, instance:seleniumDemo.TestNG_Groups@65b3f4a4]" started-at="2021-03-23T08:17:52Z" name="TestMethod4" finished-at="2021-03-23T08:17:52Z" duration-ms="9" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Inside Test Method - 4 | Page title is -> ToolsQA]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- TestMethod4 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:seleniumDemo.TestNG_Groups@65b3f4a4]" started-at="2021-03-23T08:17:52Z" name="tearDown" finished-at="2021-03-23T08:17:58Z" duration-ms="6810" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Inside the tearDown() method]]>
+            </line>
+            <line>
+              <![CDATA[Quit the Browser]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:seleniumDemo.TestNG_Groups@65b3f4a4]" started-at="2021-03-23T08:17:58Z" name="setUp" finished-at="2021-03-23T08:18:15Z" duration-ms="16382" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Inside the setUp() method]]>
+            </line>
+            <line>
+              <![CDATA[Launched Firefox Driver & Opened URL -> https://www.demoqa.com/tool-tips]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="TestMethod5()[pri:0, instance:seleniumDemo.TestNG_Groups@65b3f4a4]" started-at="2021-03-23T08:18:15Z" name="TestMethod5" finished-at="2021-03-23T08:18:15Z" duration-ms="9" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Inside Test Method - 5 | Page title is -> ToolsQA]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- TestMethod5 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:seleniumDemo.TestNG_Groups@65b3f4a4]" started-at="2021-03-23T08:18:15Z" name="tearDown" finished-at="2021-03-23T08:18:20Z" duration-ms="5335" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Inside the tearDown() method]]>
+            </line>
+            <line>
+              <![CDATA[Quit the Browser]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:seleniumDemo.TestNG_Groups@65b3f4a4]" started-at="2021-03-23T08:18:20Z" name="setUp" finished-at="2021-03-23T08:18:34Z" duration-ms="14240" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Inside the setUp() method]]>
+            </line>
+            <line>
+              <![CDATA[Launched Firefox Driver & Opened URL -> https://www.demoqa.com/tool-tips]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="TestMethod6()[pri:0, instance:seleniumDemo.TestNG_Groups@65b3f4a4]" started-at="2021-03-23T08:18:34Z" name="TestMethod6" finished-at="2021-03-23T08:18:34Z" duration-ms="16" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Inside Test Method - 6 | Page title is -> ToolsQA]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- TestMethod6 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:seleniumDemo.TestNG_Groups@65b3f4a4]" started-at="2021-03-23T08:18:34Z" name="tearDown" finished-at="2021-03-23T08:18:40Z" duration-ms="5931" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Inside the tearDown() method]]>
+            </line>
+            <line>
+              <![CDATA[Quit the Browser]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- seleniumDemo.TestNG_Groups -->
+    </test> <!-- Test 1 -->
+    <test started-at="2021-03-23T08:18:40Z" name="Test 2" finished-at="2021-03-23T08:19:08Z" duration-ms="28056">
+      <class name="seleniumDemo.TestNG_Priority">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:seleniumDemo.TestNG_Priority@2525ff7e]" started-at="2021-03-23T08:18:40Z" name="setUp" finished-at="2021-03-23T08:18:59Z" duration-ms="18799" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Inside the setUp() method]]>
+            </line>
+            <line>
+              <![CDATA[Launched Firefox Driver & Opened URL -> https://www.demoqa.com/tool-tips]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="TestMethod4()[pri:0, instance:seleniumDemo.TestNG_Priority@2525ff7e]" started-at="2021-03-23T08:18:59Z" name="TestMethod4" finished-at="2021-03-23T08:18:59Z" duration-ms="8" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Inside Test Method - 4 | Page title is -> ToolsQA]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- TestMethod4 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:seleniumDemo.TestNG_Priority@2525ff7e]" started-at="2021-03-23T08:18:59Z" name="tearDown" finished-at="2021-03-23T08:19:08Z" duration-ms="9242" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Inside the tearDown() method]]>
@@ -176,6 +323,6 @@
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- seleniumDemo.TestNG_Priority -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- Test 2 -->
+  </suite> <!-- Suite -->
 </testng-results>
