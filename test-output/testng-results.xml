@@ -5,7 +5,7 @@
       <![CDATA[Inside the setUp() method]]>
     </line>
     <line>
-      <![CDATA[Launched Firefox Driver & Opened URL -> https://demoqa.com/alerts]]>
+      <![CDATA[Launched FIREFOX Driver & Opened URL -> https://demoqa.com/alerts]]>
     </line>
     <line>
       <![CDATA[On the Confirm Alert, user has selected -> You selected Ok]]>
@@ -23,16 +23,16 @@
       <![CDATA[Quit the Browser]]>
     </line>
   </reporter-output>
-  <suite started-at="2021-03-24T07:46:31Z" name="Suite" finished-at="2021-03-24T07:46:47Z" duration-ms="16422">
+  <suite started-at="2021-03-24T08:09:09Z" name="Suite" finished-at="2021-03-24T08:09:34Z" duration-ms="24998">
     <groups>
     </groups>
-    <test started-at="2021-03-24T07:46:31Z" name="Test" finished-at="2021-03-24T07:46:47Z" duration-ms="16422">
+    <test started-at="2021-03-24T08:09:09Z" name="Test" finished-at="2021-03-24T08:09:34Z" duration-ms="24998">
       <class name="seleniumDemo.TestNG_Parameter">
-        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:seleniumDemo.TestNG_Parameter@6236eb5f]" started-at="2021-03-24T07:46:31Z" name="setUp" finished-at="2021-03-24T07:46:40Z" duration-ms="8990" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:seleniumDemo.TestNG_Parameter@6236eb5f]" started-at="2021-03-24T08:09:09Z" name="setUp" finished-at="2021-03-24T08:09:21Z" duration-ms="12046" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[edge]]>
+                <![CDATA[firefox]]>
               </value>
             </param>
           </params>
@@ -41,11 +41,11 @@
               <![CDATA[Inside the setUp() method]]>
             </line>
             <line>
-              <![CDATA[Launched Firefox Driver & Opened URL -> https://demoqa.com/alerts]]>
+              <![CDATA[Launched FIREFOX Driver & Opened URL -> https://demoqa.com/alerts]]>
             </line>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="AlertMethodTestExample()[pri:0, instance:seleniumDemo.TestNG_Parameter@6236eb5f]" started-at="2021-03-24T07:46:40Z" name="AlertMethodTestExample" finished-at="2021-03-24T07:46:47Z" duration-ms="6593" status="PASS">
+        <test-method signature="AlertMethodTestExample()[pri:0, instance:seleniumDemo.TestNG_Parameter@6236eb5f]" started-at="2021-03-24T08:09:21Z" name="AlertMethodTestExample" finished-at="2021-03-24T08:09:27Z" duration-ms="6521" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[On the Confirm Alert, user has selected -> You selected Ok]]>
@@ -58,7 +58,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- AlertMethodTestExample -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:seleniumDemo.TestNG_Parameter@6236eb5f]" started-at="2021-03-24T07:46:47Z" name="tearDown" finished-at="2021-03-24T07:46:47Z" duration-ms="805" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:seleniumDemo.TestNG_Parameter@6236eb5f]" started-at="2021-03-24T08:09:27Z" name="tearDown" finished-at="2021-03-24T08:09:34Z" duration-ms="6397" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Inside the tearDown() method]]>

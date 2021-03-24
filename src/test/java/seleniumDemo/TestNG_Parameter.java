@@ -22,7 +22,7 @@ public class TestNG_Parameter
 	private String baseURL = "https://demoqa.com/alerts";
 
 	@BeforeMethod
-	@Parameters("browser")
+	@Parameters({"browser"})
 	public void setUp(String browser) throws Exception 
 	{
 		Reporter.log("Inside the setUp() method", true);
@@ -49,7 +49,7 @@ public class TestNG_Parameter
 		driver.get(baseURL);
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 		driver.manage().deleteAllCookies();
-		Reporter.log("Launched Firefox Driver & Opened URL -> " + baseURL, true);
+		Reporter.log("Launched " + browser.toUpperCase() + " Driver & Opened URL -> " + baseURL, true);
 	}
 
 	@AfterMethod(alwaysRun = true)

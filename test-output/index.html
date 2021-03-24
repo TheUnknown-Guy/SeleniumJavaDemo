@@ -142,8 +142,9 @@
 &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
 &lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
 &lt;suite name=&quot;Suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
-  &lt;parameter name=&quot;browser&quot; value=&quot;edge&quot;/&gt;
+  &lt;parameter name=&quot;browser&quot; value=&quot;chrome&quot;/&gt;
   &lt;test thread-count=&quot;5&quot; name=&quot;Test&quot;&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;firefox&quot;/&gt;
     &lt;classes&gt;
       &lt;class name=&quot;seleniumDemo.TestNG_Parameter&quot;/&gt;
     &lt;/classes&gt;
@@ -189,7 +190,7 @@ data.addRows(1);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'AlertMethodTestExample')
 data.setCell(0, 2, 'seleniumDemo.TestNG_Parameter')
-data.setCell(0, 3, 6593);
+data.setCell(0, 3, 6521);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
@@ -230,16 +231,16 @@ return data;
             <div class="chronological-class">
               <div class="chronological-class-name">seleniumDemo.TestNG_Parameter</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
-                <span class="method-name">setUp(edge)</span>
+                <span class="method-name">setUp(firefox)</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">AlertMethodTestExample</span>
-                <span class="method-start">8990 ms</span>
+                <span class="method-start">12046 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">15593 ms</span>
+                <span class="method-start">18573 ms</span>
               </div> <!-- configuration-method after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
