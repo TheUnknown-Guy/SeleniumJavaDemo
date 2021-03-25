@@ -61,7 +61,7 @@ public class TestNG_Groups
 		String title = driver.getTitle();
 		Reporter.log("Inside Test Method - 4 | Page title is -> " + title );
 	}
-	@Test(groups = {"Regression"})
+	@Test(groups = {"Recurring"}, invocationCount = 5, invocationTimeOut = 10000)
 	public void TestMethod5()
 	{
 		String title = driver.getTitle();

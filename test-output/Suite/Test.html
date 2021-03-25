@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Test</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>1/0/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>0/1/0</td>
 </tr><tr>
-<td>Started on:</td><td>Wed Mar 24 13:39:09 IST 2021</td>
+<td>Started on:</td><td>Thu Mar 25 12:30:18 IST 2021</td>
 </tr>
-<tr><td>Total time:</td><td>24 seconds (24998 ms)</td>
+<tr><td>Total time:</td><td>37 seconds (37769 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -67,8 +67,8 @@ function toggleAllBoxes() {
 </tr>
 </table><p/>
 <small><i>(Hover the method name to see the test class name)</i></small><p/>
-<table width='100%' border='1' class='invocation-passed'>
-<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
 <tr><td><b>Test method</b></td>
 <td width="30%"><b>Exception</b></td>
 <td width="10%"><b>Time (seconds)</b></td>
@@ -76,17 +76,53 @@ function toggleAllBoxes() {
 </tr>
 <tr>
 <td title='seleniumDemo.TestNG_Parameter.AlertMethodTestExample()'><b>AlertMethodTestExample</b><br>Test class: seleniumDemo.TestNG_Parameter<br/>
-<a href="#Output-494414526" onClick='toggleBox("Output-494414526", this, "Show output", "Hide output");'>Show output</a>
+<a href="#Output-1111810093" onClick='toggleBox("Output-1111810093", this, "Show output", "Hide output");'>Show output</a>
 
-<a href="#Output-494414526" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-494414526">
+<a href="#Output-1111810093" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1111810093">
+On the Confirm Alert, user has selected -> You selected Ok<br/>
+On the Confirm Alert, user has selected -> You selected Cancel<br/>
+On the Prompt Alert, user has entered -> You entered Testing Prompt Alert<br/>
+On the Confirm Alert, user has selected -> You selected Ok<br/>
+On the Confirm Alert, user has selected -> You selected Cancel<br/>
+On the Prompt Alert, user has entered -> You entered Testing Prompt Alert<br/>
 On the Confirm Alert, user has selected -> You selected Ok<br/>
 On the Confirm Alert, user has selected -> You selected Cancel<br/>
 On the Prompt Alert, user has entered -> You entered Testing Prompt Alert<br/>
 </div>
 </td>
-<td></td>
-<td>6</td>
+<td><div><pre>org.testng.internal.thread.ThreadTimeoutException: Method seleniumDemo.TestNG_Parameter.AlertMethodTestExample() didn&apos;t finish within the time-out 20000
+	at app//org.openqa.selenium.WebDriverException.createMessage(WebDriverException.java:138)
+	at app//org.openqa.selenium.WebDriverException.getMessage(WebDriverException.java:131)
+	at java.base@15.0.2/java.lang.Throwable.getLocalizedMessage(Throwable.java:398)
+	at java.base@15.0.2/java.lang.Throwable.toString(Throwable.java:497)
+	at java.base@15.0.2/java.lang.Throwable.&lt;init&gt;(Throwable.java:318)
+	at java.base@15.0.2/java.lang.Exception.&lt;init&gt;(Exception.java:103)
+	at java.base@15.0.2/java.lang.RuntimeException.&lt;init&gt;(RuntimeException.java:97)
+	at java.base@15.0.2/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base@15.0.2/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base@15.0.2/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base@15.0.2/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base@15.0.2/java.lang.Thread.run(Thread.java:832)
+... Removed 3 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1111810093", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1111810093'><pre>org.testng.internal.thread.ThreadTimeoutException: Method seleniumDemo.TestNG_Parameter.AlertMethodTestExample() didn&apos;t finish within the time-out 20000
+	at app//org.openqa.selenium.WebDriverException.createMessage(WebDriverException.java:138)
+	at app//org.openqa.selenium.WebDriverException.getMessage(WebDriverException.java:131)
+	at java.base@15.0.2/java.lang.Throwable.getLocalizedMessage(Throwable.java:398)
+	at java.base@15.0.2/java.lang.Throwable.toString(Throwable.java:497)
+	at java.base@15.0.2/java.lang.Throwable.&lt;init&gt;(Throwable.java:318)
+	at java.base@15.0.2/java.lang.Exception.&lt;init&gt;(Exception.java:103)
+	at java.base@15.0.2/java.lang.RuntimeException.&lt;init&gt;(RuntimeException.java:97)
+	at app//org.testng.internal.InvokeMethodRunnable$TestNGRuntimeException.&lt;init&gt;(InvokeMethodRunnable.java:78)
+	at app//org.testng.internal.InvokeMethodRunnable.runOne(InvokeMethodRunnable.java:61)
+	at app//org.testng.internal.InvokeMethodRunnable.run(InvokeMethodRunnable.java:40)
+	at java.base@15.0.2/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base@15.0.2/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base@15.0.2/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base@15.0.2/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base@15.0.2/java.lang.Thread.run(Thread.java:832)
+</pre></div></td>
+<td>20</td>
 <td>seleniumDemo.TestNG_Parameter@6236eb5f</td></tr>
 </table><p>
 </body>

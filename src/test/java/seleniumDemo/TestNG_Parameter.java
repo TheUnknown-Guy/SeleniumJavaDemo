@@ -4,6 +4,7 @@ import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
@@ -28,8 +29,8 @@ public class TestNG_Parameter
 		Reporter.log("Inside the setUp() method", true);
 		if(browser.equals("chrome"))
 		{
-			WebDriverManager.firefoxdriver().setup();
-			driver = new FirefoxDriver();
+			WebDriverManager.chromedriver().setup();
+			driver = new ChromeDriver();
 		}
 		else if(browser.equals("firefox"))
 		{
@@ -60,7 +61,7 @@ public class TestNG_Parameter
 		Reporter.log("Quit the Browser", true);
 	}
 	
-	@Test
+	@Test(invocationCount = 5, invocationTimeOut = 90000)
 	public void AlertMethodTestExample()
 	{
 		WebDriverWait wait = new WebDriverWait(driver, 10);

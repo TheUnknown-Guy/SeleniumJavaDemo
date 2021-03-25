@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="seleniumDemo.DatePickerDemo">
+      <class name="seleniumDemo.TestNG_Parameter">
         <methods>
           <include name="setUp"/>
-          <include name="DatePickerTestExample"/>
           <include name="tearDown"/>
+          <include name="AlertMethodTestExample"/>
         </methods>
-      </class> <!-- seleniumDemo.DatePickerDemo -->
+      </class> <!-- seleniumDemo.TestNG_Parameter -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

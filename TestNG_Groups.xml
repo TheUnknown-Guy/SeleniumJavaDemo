@@ -9,7 +9,7 @@
 					<include name= "Regression"/>
 				</define>
 				<run>
-					<include name ="all"/>
+					<include name ="Recurring"/>
 				</run>
 		</groups>
 		<classes>
