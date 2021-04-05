@@ -48,8 +48,8 @@ public class JavascriptClick
 			//org.openqa.selenium.ElementNotInteractableException: element not interactable
 			ele.click();
 			//use below code for proper click
-			//JavascriptExecutor js = ((JavascriptExecutor)driver);
-			//js.executeScript("arguments[0].click();", ele);
+			JavascriptExecutor js = ((JavascriptExecutor)driver);
+			js.executeScript("arguments[0].click();", ele);
 		}
 
 }

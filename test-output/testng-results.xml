@@ -5,10 +5,7 @@
       <![CDATA[Inside the setUp() method]]>
     </line>
     <line>
-      <![CDATA[Launched Chrome Driver & Opened URL -> https://login.yahoo.com/]]>
-    </line>
-    <line>
-      <![CDATA[Title of current page is --> Yahoo]]>
+      <![CDATA[Launched Chrome Driver & Opened URL -> https://www.udemy.com/]]>
     </line>
     <line>
       <![CDATA[Inside the tearDown() method]]>
@@ -17,29 +14,26 @@
       <![CDATA[Quit the Browser]]>
     </line>
   </reporter-output>
-  <suite started-at="2021-03-30T06:52:48Z" name="Default suite" finished-at="2021-03-30T06:52:59Z" duration-ms="10411">
+  <suite started-at="2021-04-05T08:01:18Z" name="Default suite" finished-at="2021-04-05T08:01:54Z" duration-ms="35279">
     <groups>
     </groups>
-    <test started-at="2021-03-30T06:52:48Z" name="Default test" finished-at="2021-03-30T06:52:59Z" duration-ms="10411">
-      <class name="seleniumDemo.TakeScreenshotImage">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:seleniumDemo.TakeScreenshotImage@17a7f733]" started-at="2021-03-30T06:52:48Z" name="setUp" finished-at="2021-03-30T06:52:56Z" duration-ms="7160" status="PASS">
+    <test started-at="2021-04-05T08:01:18Z" name="Default test" finished-at="2021-04-05T08:01:54Z" duration-ms="35279">
+      <class name="seleniumDemo.AShotAPIDemo">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:seleniumDemo.AShotAPIDemo@3972a855]" started-at="2021-04-05T08:01:18Z" name="setUp" finished-at="2021-04-05T08:01:31Z" duration-ms="12813" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Inside the setUp() method]]>
             </line>
             <line>
-              <![CDATA[Launched Chrome Driver & Opened URL -> https://login.yahoo.com/]]>
+              <![CDATA[Launched Chrome Driver & Opened URL -> https://www.udemy.com/]]>
             </line>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="ScreenshotTestMethod()[pri:0, instance:seleniumDemo.TakeScreenshotImage@17a7f733]" started-at="2021-03-30T06:52:56Z" name="ScreenshotTestMethod" finished-at="2021-03-30T06:52:56Z" duration-ms="493" status="PASS">
+        <test-method signature="AShotAPIDmeoFullScreenshot()[pri:0, instance:seleniumDemo.AShotAPIDemo@3972a855]" started-at="2021-04-05T08:01:31Z" name="AShotAPIDmeoFullScreenshot" finished-at="2021-04-05T08:01:51Z" duration-ms="19652" status="PASS">
           <reporter-output>
-            <line>
-              <![CDATA[Title of current page is --> Yahoo]]>
-            </line>
           </reporter-output>
-        </test-method> <!-- ScreenshotTestMethod -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:seleniumDemo.TakeScreenshotImage@17a7f733]" started-at="2021-03-30T06:52:56Z" name="tearDown" finished-at="2021-03-30T06:52:59Z" duration-ms="2739" status="PASS">
+        </test-method> <!-- AShotAPIDmeoFullScreenshot -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:seleniumDemo.AShotAPIDemo@3972a855]" started-at="2021-04-05T08:01:51Z" name="tearDown" finished-at="2021-04-05T08:01:54Z" duration-ms="2786" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Inside the tearDown() method]]>
@@ -49,7 +43,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- seleniumDemo.TakeScreenshotImage -->
+      </class> <!-- seleniumDemo.AShotAPIDemo -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
