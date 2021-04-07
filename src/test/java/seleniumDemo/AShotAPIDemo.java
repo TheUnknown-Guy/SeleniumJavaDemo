@@ -51,7 +51,7 @@ public class AShotAPIDemo
 	}
 	
 	@Test
-	public void AShotAPIDmeoFullScreenshot() throws IOException, InterruptedException
+	public void AShotAPIDmeoFullScreenshot() throws IOException
 	{
 		String projectPath = System.getProperty("user.dir");
 		DateTimeFormatter dtf= DateTimeFormatter.ofPattern("dd MMM, yyyy hh-mm-ss");
