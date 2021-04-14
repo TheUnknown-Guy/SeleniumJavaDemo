@@ -3,13 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="seleniumDemo.AShotAPIDemo">
+      <class name="seleniumDemo.PageLoadTimeOutDemo">
         <methods>
-          <include name="tearDown"/>
-          <include name="setUp"/>
-          <include name="AShotAPIDmeoFullScreenshot"/>
+          <include name="PageLoadTimeOutDemoTest"/>
         </methods>
-      </class> <!-- seleniumDemo.AShotAPIDemo -->
+      </class> <!-- seleniumDemo.PageLoadTimeOutDemo -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

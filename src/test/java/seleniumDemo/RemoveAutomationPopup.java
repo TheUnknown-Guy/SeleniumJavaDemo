@@ -4,6 +4,7 @@ import java.util.Collections;
 import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.edge.EdgeOptions;
@@ -24,19 +25,20 @@ public class RemoveAutomationPopup
 	public void setUp() throws Exception 
 	{
 		Reporter.log("Inside the setUp() method", true);
-		
+		/*
+		 * WORKS  WITH SELENIUM 4 & ABOVE
 		WebDriverManager.edgedriver().setup();
 		EdgeOptions options = new EdgeOptions();
 		options.setExperimentalOption("excludeSwitches", Collections.singletonList("enable-automation"));
 		driver = new EdgeDriver(options);
+		*/
 		
-		/*
 		 WebDriverManager.chromedriver().setup();
 		ChromeOptions options = new ChromeOptions();
-		//options.addArguments("disable-infobars");
+		//options.addArguments("disable-infobars"); - DEPRECEATED
 		options.setExperimentalOption("excludeSwitches", Collections.singletonList("enable-automation"));
 		driver = new ChromeDriver(options);
-		*/
+		
 		driver.manage().window().maximize();
 		driver.get(baseURL);
 		driver.manage().deleteAllCookies();
