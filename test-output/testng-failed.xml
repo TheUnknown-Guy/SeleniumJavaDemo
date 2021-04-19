@@ -3,11 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="seleniumDemo.PageLoadTimeOutDemo">
+      <class name="seleniumDemo.ExplicitWaitExpectedConditionsDemo">
         <methods>
-          <include name="PageLoadTimeOutDemoTest"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="WaitUntilButtonIsClickableTest"/>
         </methods>
-      </class> <!-- seleniumDemo.PageLoadTimeOutDemo -->
+      </class> <!-- seleniumDemo.ExplicitWaitExpectedConditionsDemo -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

@@ -1,23 +1,49 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="1" total="2" passed="1" failed="0" skipped="0">
   <reporter-output>
     <line>
-      <![CDATA[Launched Chrome Driver & Opened URL -> https://www.yatra.com/bus-booking]]>
+      <![CDATA[Inside the setUp() method]]>
+    </line>
+    <line>
+      <![CDATA[Launched Firefox Driver & Opened URL -> https://demoqa.com/alerts]]>
+    </line>
+    <line>
+      <![CDATA[Inside the tearDown() method]]>
+    </line>
+    <line>
+      <![CDATA[Quit the Browser]]>
     </line>
   </reporter-output>
-  <suite started-at="2021-04-18T07:48:28Z" name="Default suite" finished-at="2021-04-18T07:48:49Z" duration-ms="20188">
+  <suite started-at="2021-04-19T06:40:33Z" name="Default suite" finished-at="2021-04-19T06:41:04Z" duration-ms="30320">
     <groups>
     </groups>
-    <test started-at="2021-04-18T07:48:28Z" name="Default test" finished-at="2021-04-18T07:48:49Z" duration-ms="20188">
-      <class name="seleniumDemo.DisableBrowserNotifications">
-        <test-method signature="TestBrowserNotificatin()[pri:0, instance:seleniumDemo.DisableBrowserNotifications@7a675056]" started-at="2021-04-18T07:48:28Z" name="TestBrowserNotificatin" finished-at="2021-04-18T07:48:49Z" duration-ms="20171" status="PASS">
+    <test started-at="2021-04-19T06:40:33Z" name="Default test" finished-at="2021-04-19T06:41:04Z" duration-ms="30320">
+      <class name="seleniumDemo.ExplicitWaitExpectedConditionsDemo">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:seleniumDemo.ExplicitWaitExpectedConditionsDemo@484970b0]" started-at="2021-04-19T06:40:33Z" name="setUp" finished-at="2021-04-19T06:40:47Z" duration-ms="13936" status="PASS">
           <reporter-output>
             <line>
-              <![CDATA[Launched Chrome Driver & Opened URL -> https://www.yatra.com/bus-booking]]>
+              <![CDATA[Inside the setUp() method]]>
+            </line>
+            <line>
+              <![CDATA[Launched Firefox Driver & Opened URL -> https://demoqa.com/alerts]]>
             </line>
           </reporter-output>
-        </test-method> <!-- TestBrowserNotificatin -->
-      </class> <!-- seleniumDemo.DisableBrowserNotifications -->
+        </test-method> <!-- setUp -->
+        <test-method signature="WaitUntilButtonIsClickableTest()[pri:0, instance:seleniumDemo.ExplicitWaitExpectedConditionsDemo@484970b0]" started-at="2021-04-19T06:40:47Z" name="WaitUntilButtonIsClickableTest" finished-at="2021-04-19T06:40:58Z" duration-ms="10942" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- WaitUntilButtonIsClickableTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:seleniumDemo.ExplicitWaitExpectedConditionsDemo@484970b0]" started-at="2021-04-19T06:40:58Z" name="tearDown" finished-at="2021-04-19T06:41:04Z" duration-ms="5414" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Inside the tearDown() method]]>
+            </line>
+            <line>
+              <![CDATA[Quit the Browser]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- seleniumDemo.ExplicitWaitExpectedConditionsDemo -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
