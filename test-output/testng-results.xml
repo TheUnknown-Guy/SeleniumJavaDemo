@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="1" total="2" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
     <line>
       <![CDATA[Inside the setUp() method]]>
     </line>
     <line>
-      <![CDATA[Launched Firefox Driver & Opened URL -> https://demoqa.com/alerts]]>
+      <![CDATA[Launched Firefox Driver & Opened URL -> https://www.facebook.com]]>
     </line>
     <line>
       <![CDATA[Inside the tearDown() method]]>
@@ -14,26 +14,26 @@
       <![CDATA[Quit the Browser]]>
     </line>
   </reporter-output>
-  <suite started-at="2021-04-19T06:40:33Z" name="Default suite" finished-at="2021-04-19T06:41:04Z" duration-ms="30320">
+  <suite started-at="2021-04-20T06:49:30Z" name="Default suite" finished-at="2021-04-20T06:50:11Z" duration-ms="40948">
     <groups>
     </groups>
-    <test started-at="2021-04-19T06:40:33Z" name="Default test" finished-at="2021-04-19T06:41:04Z" duration-ms="30320">
-      <class name="seleniumDemo.ExplicitWaitExpectedConditionsDemo">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:seleniumDemo.ExplicitWaitExpectedConditionsDemo@484970b0]" started-at="2021-04-19T06:40:33Z" name="setUp" finished-at="2021-04-19T06:40:47Z" duration-ms="13936" status="PASS">
+    <test started-at="2021-04-20T06:49:30Z" name="Default test" finished-at="2021-04-20T06:50:11Z" duration-ms="40948">
+      <class name="seleniumDemo.ScreenshotUsingFileHandler">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:seleniumDemo.ScreenshotUsingFileHandler@394a2528]" started-at="2021-04-20T06:49:30Z" name="setUp" finished-at="2021-04-20T06:50:04Z" duration-ms="33948" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Inside the setUp() method]]>
             </line>
             <line>
-              <![CDATA[Launched Firefox Driver & Opened URL -> https://demoqa.com/alerts]]>
+              <![CDATA[Launched Firefox Driver & Opened URL -> https://www.facebook.com]]>
             </line>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="WaitUntilButtonIsClickableTest()[pri:0, instance:seleniumDemo.ExplicitWaitExpectedConditionsDemo@484970b0]" started-at="2021-04-19T06:40:47Z" name="WaitUntilButtonIsClickableTest" finished-at="2021-04-19T06:40:58Z" duration-ms="10942" status="PASS">
+        <test-method signature="ScreenshotUsingFileHandlerClassTest()[pri:0, instance:seleniumDemo.ScreenshotUsingFileHandler@394a2528]" started-at="2021-04-20T06:50:04Z" name="ScreenshotUsingFileHandlerClassTest" finished-at="2021-04-20T06:50:05Z" duration-ms="599" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- WaitUntilButtonIsClickableTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:seleniumDemo.ExplicitWaitExpectedConditionsDemo@484970b0]" started-at="2021-04-19T06:40:58Z" name="tearDown" finished-at="2021-04-19T06:41:04Z" duration-ms="5414" status="PASS">
+        </test-method> <!-- ScreenshotUsingFileHandlerClassTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:seleniumDemo.ScreenshotUsingFileHandler@394a2528]" started-at="2021-04-20T06:50:05Z" name="tearDown" finished-at="2021-04-20T06:50:11Z" duration-ms="6366" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Inside the tearDown() method]]>
@@ -43,7 +43,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- seleniumDemo.ExplicitWaitExpectedConditionsDemo -->
+      </class> <!-- seleniumDemo.ScreenshotUsingFileHandler -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
