@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="seleniumDemo.ExplicitWaitExpectedConditionsDemo">
+      <class name="seleniumDemo.ScrollIntoViewDemo">
         <methods>
           <include name="setUp"/>
           <include name="tearDown"/>
-          <include name="WaitUntilButtonIsClickableTest"/>
+          <include name="ScrollIntoViewTrueArguementTest"/>
         </methods>
-      </class> <!-- seleniumDemo.ExplicitWaitExpectedConditionsDemo -->
+      </class> <!-- seleniumDemo.ScrollIntoViewDemo -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
