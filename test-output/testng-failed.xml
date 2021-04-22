@@ -6,8 +6,8 @@
       <class name="seleniumDemo.ScrollIntoViewDemo">
         <methods>
           <include name="setUp"/>
+          <include name="ScrollIntoViewMiddleTest"/>
           <include name="tearDown"/>
-          <include name="ScrollIntoViewTrueArguementTest"/>
         </methods>
       </class> <!-- seleniumDemo.ScrollIntoViewDemo -->
     </classes>

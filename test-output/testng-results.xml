@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="1" total="2" passed="1" failed="0" skipped="0">
+<testng-results ignored="2" total="3" passed="1" failed="0" skipped="0">
   <reporter-output>
     <line>
       <![CDATA[Inside the setUp() method]]>
@@ -14,12 +14,12 @@
       <![CDATA[Quit the Browser]]>
     </line>
   </reporter-output>
-  <suite started-at="2021-04-21T13:48:59Z" name="Default suite" finished-at="2021-04-21T13:49:29Z" duration-ms="30288">
+  <suite started-at="2021-04-22T06:36:19Z" name="Default suite" finished-at="2021-04-22T06:36:55Z" duration-ms="35875">
     <groups>
     </groups>
-    <test started-at="2021-04-21T13:48:59Z" name="Default test" finished-at="2021-04-21T13:49:29Z" duration-ms="30288">
+    <test started-at="2021-04-22T06:36:19Z" name="Default test" finished-at="2021-04-22T06:36:55Z" duration-ms="35875">
       <class name="seleniumDemo.ScrollIntoViewDemo">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:seleniumDemo.ScrollIntoViewDemo@484970b0]" started-at="2021-04-21T13:48:59Z" name="setUp" finished-at="2021-04-21T13:49:12Z" duration-ms="12794" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:seleniumDemo.ScrollIntoViewDemo@7c1e2a9e]" started-at="2021-04-22T06:36:19Z" name="setUp" finished-at="2021-04-22T06:36:38Z" duration-ms="19008" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Inside the setUp() method]]>
@@ -29,11 +29,11 @@
             </line>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="ScrollIntoViewFalseArguementTest()[pri:0, instance:seleniumDemo.ScrollIntoViewDemo@484970b0]" started-at="2021-04-21T13:49:12Z" name="ScrollIntoViewFalseArguementTest" finished-at="2021-04-21T13:49:20Z" duration-ms="8064" status="PASS">
+        <test-method signature="ScrollIntoViewMiddleTest()[pri:0, instance:seleniumDemo.ScrollIntoViewDemo@7c1e2a9e]" started-at="2021-04-22T06:36:38Z" name="ScrollIntoViewMiddleTest" finished-at="2021-04-22T06:36:47Z" duration-ms="8473" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- ScrollIntoViewFalseArguementTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:seleniumDemo.ScrollIntoViewDemo@484970b0]" started-at="2021-04-21T13:49:20Z" name="tearDown" finished-at="2021-04-21T13:49:29Z" duration-ms="9363" status="PASS">
+        </test-method> <!-- ScrollIntoViewMiddleTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:seleniumDemo.ScrollIntoViewDemo@7c1e2a9e]" started-at="2021-04-22T06:36:47Z" name="tearDown" finished-at="2021-04-22T06:36:55Z" duration-ms="8352" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Inside the tearDown() method]]>

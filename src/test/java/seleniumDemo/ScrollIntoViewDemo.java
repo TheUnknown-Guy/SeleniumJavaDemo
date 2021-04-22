@@ -74,5 +74,23 @@ public class ScrollIntoViewDemo
 		Thread.sleep(6000);
 		viewAll.click();
 	}
+	@Test
+	public void ScrollIntoViewMiddleTest() throws InterruptedException
+	{
+		WebElement close = driver.findElement(By.xpath("//button[@class='_2KpZ6l _2doB4z']"));
+		WebDriverWait wait = new WebDriverWait(driver, 20);
+		wait.until(ExpectedConditions.visibilityOf(close));
+		close.click();
+		driver.findElement(By.xpath("//div[text()='Top Offers']")).click();
+		wait.until(ExpectedConditions.presenceOfAllElementsLocatedBy(By.xpath("//h2[text()='Top Selling Mobiles']")));
+		WebElement topSelling = driver.findElement(By.xpath("//h2[text()='Top Selling Mobiles']"));
+		JavascriptExecutor js = ((JavascriptExecutor)driver);
+		//scroll element to middle of the page 
+		js.executeScript("arguments[0].scrollIntoView({behaviour:'smooth',inline:'center',block:'center'});", topSelling);
+		WebElement viewAll = driver.findElement(By.xpath("//h2[text()='Top Selling Mobiles']/..//a[text()='VIEW ALL']"));
+		Thread.sleep(6000);
+		viewAll.click();
+	}
+	
 	
 }
