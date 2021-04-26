@@ -53,10 +53,16 @@ public class SendKeysAlternative
 		js.executeScript("arguments[0].setAttribute(arguments[1],arguments[2])", textbox, "value","Automation Testing");
 		
 		WebElement email = driver.findElement(By.xpath("//input[@placeholder='name@example.com']"));
-		WrapsDriver wd1 = (WrapsDriver)textbox;
-		JavascriptExecutor js1 = (JavascriptExecutor)wd1.getWrappedDriver();
-		js1.executeScript("arguments[0].setAttribute(arguments[1],arguments[2])", email, "value","AutomationTesting@gmail.com");
+		SendKeysUsingJavaScript(email, "value","AutomationTesting@gmail.com");
 		Thread.sleep(4000);
+	}
+	
+	//Converting it to a method
+	public void SendKeysUsingJavaScript(WebElement element, String attributeName, String attributeValue)
+	{
+		WrapsDriver wrapDriver = (WrapsDriver)element;
+		JavascriptExecutor executor = (JavascriptExecutor)wrapDriver.getWrappedDriver();
+		executor.executeScript("arguments[0].setAttribute(arguments[1],arguments[2])", element, attributeName, attributeValue);
 	}
 	
 }

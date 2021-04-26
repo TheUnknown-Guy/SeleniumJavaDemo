@@ -14,12 +14,12 @@
       <![CDATA[Quit the Browser]]>
     </line>
   </reporter-output>
-  <suite started-at="2021-04-26T05:38:20Z" name="Default suite" finished-at="2021-04-26T05:38:45Z" duration-ms="25134">
+  <suite started-at="2021-04-26T05:44:15Z" name="Default suite" finished-at="2021-04-26T05:44:39Z" duration-ms="23786">
     <groups>
     </groups>
-    <test started-at="2021-04-26T05:38:20Z" name="Default test" finished-at="2021-04-26T05:38:45Z" duration-ms="25134">
+    <test started-at="2021-04-26T05:44:15Z" name="Default test" finished-at="2021-04-26T05:44:39Z" duration-ms="23786">
       <class name="seleniumDemo.SendKeysAlternative">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:seleniumDemo.SendKeysAlternative@394a2528]" started-at="2021-04-26T05:38:20Z" name="setUp" finished-at="2021-04-26T05:38:36Z" duration-ms="16581" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:seleniumDemo.SendKeysAlternative@3f56875e]" started-at="2021-04-26T05:44:15Z" name="setUp" finished-at="2021-04-26T05:44:30Z" duration-ms="14663" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Inside the setUp() method]]>
@@ -29,11 +29,11 @@
             </line>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="DemoTestExample()[pri:0, instance:seleniumDemo.SendKeysAlternative@394a2528]" started-at="2021-04-26T05:38:36Z" name="DemoTestExample" finished-at="2021-04-26T05:38:40Z" duration-ms="4059" status="PASS">
+        <test-method signature="DemoTestExample()[pri:0, instance:seleniumDemo.SendKeysAlternative@3f56875e]" started-at="2021-04-26T05:44:30Z" name="DemoTestExample" finished-at="2021-04-26T05:44:34Z" duration-ms="4051" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- DemoTestExample -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:seleniumDemo.SendKeysAlternative@394a2528]" started-at="2021-04-26T05:38:40Z" name="tearDown" finished-at="2021-04-26T05:38:45Z" duration-ms="4477" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:seleniumDemo.SendKeysAlternative@3f56875e]" started-at="2021-04-26T05:44:34Z" name="tearDown" finished-at="2021-04-26T05:44:39Z" duration-ms="5054" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Inside the tearDown() method]]>
