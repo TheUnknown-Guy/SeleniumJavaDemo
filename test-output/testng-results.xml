@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="2" total="3" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
     <line>
       <![CDATA[Inside the setUp() method]]>
     </line>
     <line>
-      <![CDATA[Launched Firefox Driver & Opened URL -> https://www.flipkart.com]]>
+      <![CDATA[Launched Firefox Driver & Opened URL -> https://www.demoqa.com/text-box]]>
     </line>
     <line>
       <![CDATA[Inside the tearDown() method]]>
@@ -14,26 +14,26 @@
       <![CDATA[Quit the Browser]]>
     </line>
   </reporter-output>
-  <suite started-at="2021-04-22T06:36:19Z" name="Default suite" finished-at="2021-04-22T06:36:55Z" duration-ms="35875">
+  <suite started-at="2021-04-26T05:38:20Z" name="Default suite" finished-at="2021-04-26T05:38:45Z" duration-ms="25134">
     <groups>
     </groups>
-    <test started-at="2021-04-22T06:36:19Z" name="Default test" finished-at="2021-04-22T06:36:55Z" duration-ms="35875">
-      <class name="seleniumDemo.ScrollIntoViewDemo">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:seleniumDemo.ScrollIntoViewDemo@7c1e2a9e]" started-at="2021-04-22T06:36:19Z" name="setUp" finished-at="2021-04-22T06:36:38Z" duration-ms="19008" status="PASS">
+    <test started-at="2021-04-26T05:38:20Z" name="Default test" finished-at="2021-04-26T05:38:45Z" duration-ms="25134">
+      <class name="seleniumDemo.SendKeysAlternative">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:seleniumDemo.SendKeysAlternative@394a2528]" started-at="2021-04-26T05:38:20Z" name="setUp" finished-at="2021-04-26T05:38:36Z" duration-ms="16581" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Inside the setUp() method]]>
             </line>
             <line>
-              <![CDATA[Launched Firefox Driver & Opened URL -> https://www.flipkart.com]]>
+              <![CDATA[Launched Firefox Driver & Opened URL -> https://www.demoqa.com/text-box]]>
             </line>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="ScrollIntoViewMiddleTest()[pri:0, instance:seleniumDemo.ScrollIntoViewDemo@7c1e2a9e]" started-at="2021-04-22T06:36:38Z" name="ScrollIntoViewMiddleTest" finished-at="2021-04-22T06:36:47Z" duration-ms="8473" status="PASS">
+        <test-method signature="DemoTestExample()[pri:0, instance:seleniumDemo.SendKeysAlternative@394a2528]" started-at="2021-04-26T05:38:36Z" name="DemoTestExample" finished-at="2021-04-26T05:38:40Z" duration-ms="4059" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- ScrollIntoViewMiddleTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:seleniumDemo.ScrollIntoViewDemo@7c1e2a9e]" started-at="2021-04-22T06:36:47Z" name="tearDown" finished-at="2021-04-22T06:36:55Z" duration-ms="8352" status="PASS">
+        </test-method> <!-- DemoTestExample -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:seleniumDemo.SendKeysAlternative@394a2528]" started-at="2021-04-26T05:38:40Z" name="tearDown" finished-at="2021-04-26T05:38:45Z" duration-ms="4477" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Inside the tearDown() method]]>
@@ -43,7 +43,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- seleniumDemo.ScrollIntoViewDemo -->
+      </class> <!-- seleniumDemo.SendKeysAlternative -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

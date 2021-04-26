@@ -1,9 +1,7 @@
 package seleniumDemo;
 
-import java.time.Duration;
-import java.util.NoSuchElementException;
+
 import java.util.concurrent.TimeUnit;
-import java.util.function.Function;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
