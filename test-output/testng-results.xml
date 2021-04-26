@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="1" total="2" passed="1" failed="0" skipped="0">
   <reporter-output>
     <line>
       <![CDATA[Inside the setUp() method]]>
     </line>
     <line>
-      <![CDATA[Launched Firefox Driver & Opened URL -> https://www.demoqa.com/text-box]]>
+      <![CDATA[Launched Firefox Driver & Opened URL -> https://www.saucedemo.com/]]>
     </line>
     <line>
       <![CDATA[Inside the tearDown() method]]>
@@ -14,26 +14,26 @@
       <![CDATA[Quit the Browser]]>
     </line>
   </reporter-output>
-  <suite started-at="2021-04-26T05:44:15Z" name="Default suite" finished-at="2021-04-26T05:44:39Z" duration-ms="23786">
+  <suite started-at="2021-04-26T05:58:22Z" name="Default suite" finished-at="2021-04-26T05:58:39Z" duration-ms="17190">
     <groups>
     </groups>
-    <test started-at="2021-04-26T05:44:15Z" name="Default test" finished-at="2021-04-26T05:44:39Z" duration-ms="23786">
+    <test started-at="2021-04-26T05:58:22Z" name="Default test" finished-at="2021-04-26T05:58:39Z" duration-ms="17190">
       <class name="seleniumDemo.SendKeysAlternative">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:seleniumDemo.SendKeysAlternative@3f56875e]" started-at="2021-04-26T05:44:15Z" name="setUp" finished-at="2021-04-26T05:44:30Z" duration-ms="14663" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:seleniumDemo.SendKeysAlternative@55740540]" started-at="2021-04-26T05:58:22Z" name="setUp" finished-at="2021-04-26T05:58:27Z" duration-ms="5176" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Inside the setUp() method]]>
             </line>
-            <line>
-              <![CDATA[Launched Firefox Driver & Opened URL -> https://www.demoqa.com/text-box]]>
-            </line>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="DemoTestExample()[pri:0, instance:seleniumDemo.SendKeysAlternative@3f56875e]" started-at="2021-04-26T05:44:30Z" name="DemoTestExample" finished-at="2021-04-26T05:44:34Z" duration-ms="4051" status="PASS">
+        <test-method signature="DemoTestExample2()[pri:0, instance:seleniumDemo.SendKeysAlternative@55740540]" started-at="2021-04-26T05:58:27Z" name="DemoTestExample2" finished-at="2021-04-26T05:58:34Z" duration-ms="6741" status="PASS">
           <reporter-output>
+            <line>
+              <![CDATA[Launched Firefox Driver & Opened URL -> https://www.saucedemo.com/]]>
+            </line>
           </reporter-output>
-        </test-method> <!-- DemoTestExample -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:seleniumDemo.SendKeysAlternative@3f56875e]" started-at="2021-04-26T05:44:34Z" name="tearDown" finished-at="2021-04-26T05:44:39Z" duration-ms="5054" status="PASS">
+        </test-method> <!-- DemoTestExample2 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:seleniumDemo.SendKeysAlternative@55740540]" started-at="2021-04-26T05:58:34Z" name="tearDown" finished-at="2021-04-26T05:58:39Z" duration-ms="5251" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Inside the tearDown() method]]>

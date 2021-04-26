@@ -20,7 +20,6 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 public class SendKeysAlternative 
 {
 	private WebDriver driver;	
-	private String baseURL = "https://www.demoqa.com/text-box";
 
 	@BeforeMethod
 	public void setUp() throws Exception 
@@ -29,9 +28,6 @@ public class SendKeysAlternative
 		WebDriverManager.firefoxdriver().setup();
 		driver = new FirefoxDriver();
 		driver.manage().window().maximize();
-		driver.get(baseURL);
-		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
-		Reporter.log("Launched Firefox Driver & Opened URL -> " + baseURL, true);
 	}
 
 	@AfterMethod
@@ -43,8 +39,12 @@ public class SendKeysAlternative
 	}
 	
 	@Test
-	public void DemoTestExample() throws InterruptedException
+	public void DemoTestExample1() throws InterruptedException
 	{
+		String baseURL = "https://www.demoqa.com/text-box";
+		driver.get(baseURL);
+		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+		Reporter.log("Launched Firefox Driver & Opened URL -> " + baseURL, true);
 		WebDriverWait wait = new WebDriverWait(driver, 10);
 		wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath("//input[@placeholder='Full Name']")));
 		WebElement textbox = driver.findElement(By.xpath("//input[@placeholder='Full Name']"));
@@ -56,6 +56,19 @@ public class SendKeysAlternative
 		SendKeysUsingJavaScript(email, "value","AutomationTesting@gmail.com");
 		Thread.sleep(4000);
 	}
+	
+	@Test
+	public void DemoTestExample2() throws InterruptedException
+	{
+		String baseURL = "https://www.saucedemo.com/";
+		driver.get(baseURL);
+		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+		Reporter.log("Launched Firefox Driver & Opened URL -> " + baseURL, true);
+		JavascriptExecutor jse = (JavascriptExecutor)driver;
+		jse.executeScript("document.getElementById('user-name').value='Automation Testing'");
+		Thread.sleep(4000);
+	}
+	
 	
 	//Converting it to a method
 	public void SendKeysUsingJavaScript(WebElement element, String attributeName, String attributeValue)
