@@ -76,6 +76,8 @@ public class AlertMethodDemo
 		//passing data & dismissing the alert
 		driver.findElement(By.id("promtButton")).click();
 		driver.switchTo().alert().sendKeys("Testing Prompt Alert");
+		String text = driver.switchTo().alert().getText();
+		Reporter.log("Getting text displayed on the Alert window -> " + text, true);
 		driver.switchTo().alert().dismiss();
 	}
 	
